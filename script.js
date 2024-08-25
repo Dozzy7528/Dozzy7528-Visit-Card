@@ -5,7 +5,7 @@ document.addEventListener('mousemove', function(e) {
 
     // Вычисляем цвета на основе положения мыши
     const red = Math.floor(x * 255);
-    const green = Math.floor(y * 255);
+    const green = Math.floor(y * 2 * 255);
     const blue = Math.floor((x + y) / 3 * 255);
 
     // Устанавливаем радиальный градиент как фон
