@@ -1,6 +1,6 @@
 document.addEventListener('mousemove', function(e) {
-    const x = e.clientX / window.innerWidth;
-    const y = e.clientY / window.innerHeight;
-    const bgColor = `rgba(${Math.floor(x * 255)}, ${Math.floor(y * 255)}, 255, 0.1)`;
-    document.body.style.background = bgColor;
+    let x = e.clientX / window.innerWidth;
+    let y = e.clientY / window.innerHeight;
+    let body = document.querySelector('body');
+    body.style.background = `radial-gradient(circle at ${x * 100}% ${y * 100}%, #ff0066, #0d0d0d)`;
 });
