@@ -6,7 +6,7 @@ body {
     overflow: hidden;
     background: radial-gradient(circle, #009B77, #7851a9);
     transition: background 0.2s ease;
-    user-selection:none
+    user-selection: none;
 }
 
 .content {
