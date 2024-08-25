@@ -9,5 +9,5 @@ document.addEventListener('mousemove', function(e) {
     const blue = Math.floor((x + y) / 2 * 255);
 
     // Устанавливаем радиальный градиент как фон
-    body.style.background = `radial-gradient(circle at ${x * 100}% ${y * 100}%, rgb(${red}, ${green}, ${blue}), rgb(${255 + red}, ${255 + green}, ${255 + blue}))`;
+    body.style.background = `radial-gradient(circle at ${x * 100}% ${y * 100}%, rgb(${red}, ${green}, ${blue}), rgb(${255 + red}, ${255 / green}, ${255 - blue}))`;
 });
