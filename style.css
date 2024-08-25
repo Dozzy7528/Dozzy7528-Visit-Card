@@ -4,7 +4,7 @@ body {
     font-family: 'Courier New', Courier, monospace;
     height: 100vh;
     overflow: hidden;
-    background: radial-gradient(circle, #000000, #333333);
+    background: radial-gradient(circle, #009B77, #7851a9);
     transition: background 0.5s ease;
 }
 
